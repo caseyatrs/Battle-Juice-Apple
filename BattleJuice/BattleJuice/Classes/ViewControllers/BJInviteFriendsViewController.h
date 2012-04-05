@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BJInviteFriendsViewController : UIViewController
+@interface BJInviteFriendsViewController : BJBaseViewController
 
 @end

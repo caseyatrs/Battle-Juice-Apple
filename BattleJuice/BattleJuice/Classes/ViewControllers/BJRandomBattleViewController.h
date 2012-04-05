@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BJRandomBattleViewController : UIViewController
+@interface BJRandomBattleViewController : BJBaseViewController
 
 @end

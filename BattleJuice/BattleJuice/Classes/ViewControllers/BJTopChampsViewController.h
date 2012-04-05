@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BJTopChampsViewController : UIViewController
+@interface BJTopChampsViewController : BJBaseViewController
 
 @end

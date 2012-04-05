@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BJAddJuiceViewController : UIViewController
+@interface BJAddJuiceViewController : BJBaseViewController
 
 @end

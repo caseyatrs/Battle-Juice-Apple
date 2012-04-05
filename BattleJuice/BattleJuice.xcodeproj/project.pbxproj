@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E23EE35152D3EF8003ADD83 /* BJ_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23EE33152D3EF8003ADD83 /* BJ_logo.png */; };
+		7E23EE36152D3EF8003ADD83 /* BJ_vs.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23EE34152D3EF8003ADD83 /* BJ_vs.png */; };
 		7EAA350D152D2E9A00D2F719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA350C152D2E9A00D2F719 /* UIKit.framework */; };
 		7EAA350F152D2E9A00D2F719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA350E152D2E9A00D2F719 /* Foundation.framework */; };
 		7EAA3511152D2E9A00D2F719 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA3510152D2E9A00D2F719 /* CoreGraphics.framework */; };
@@ -20,9 +22,14 @@
 		7EAA353F152D2FF300D2F719 /* BJYourJuiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA353E152D2FF300D2F719 /* BJYourJuiceViewController.m */; };
 		7EAA3542152D300500D2F719 /* BJTopChampsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA3541152D300500D2F719 /* BJTopChampsViewController.m */; };
 		7EAA3545152D302A00D2F719 /* BJInviteFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA3544152D302A00D2F719 /* BJInviteFriendsViewController.m */; };
+		7EAA354B152D343600D2F719 /* BJ_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA3549152D343600D2F719 /* BJ_logo@2x.png */; };
+		7EAA354C152D343600D2F719 /* BJ_vs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA354A152D343600D2F719 /* BJ_vs@2x.png */; };
+		7EAA354F152D3B4B00D2F719 /* BJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA354E152D3B4B00D2F719 /* BJBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E23EE33152D3EF8003ADD83 /* BJ_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BJ_logo.png; path = Resources/Images/BJ_logo.png; sourceTree = "<group>"; };
+		7E23EE34152D3EF8003ADD83 /* BJ_vs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BJ_vs.png; path = Resources/Images/BJ_vs.png; sourceTree = "<group>"; };
 		7EAA3508152D2E9A00D2F719 /* BattleJuice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleJuice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAA350C152D2E9A00D2F719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7EAA350E152D2E9A00D2F719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,6 +52,10 @@
 		7EAA3541152D300500D2F719 /* BJTopChampsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJTopChampsViewController.m; path = Classes/ViewControllers/BJTopChampsViewController.m; sourceTree = "<group>"; };
 		7EAA3543152D302A00D2F719 /* BJInviteFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJInviteFriendsViewController.h; path = Classes/ViewControllers/BJInviteFriendsViewController.h; sourceTree = "<group>"; };
 		7EAA3544152D302A00D2F719 /* BJInviteFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJInviteFriendsViewController.m; path = Classes/ViewControllers/BJInviteFriendsViewController.m; sourceTree = "<group>"; };
+		7EAA3549152D343600D2F719 /* BJ_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BJ_logo@2x.png"; path = "Resources/Images/BJ_logo@2x.png"; sourceTree = "<group>"; };
+		7EAA354A152D343600D2F719 /* BJ_vs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BJ_vs@2x.png"; path = "Resources/Images/BJ_vs@2x.png"; sourceTree = "<group>"; };
+		7EAA354D152D3B4B00D2F719 /* BJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJBaseViewController.h; path = Classes/ViewControllers/BJBaseViewController.h; sourceTree = "<group>"; };
+		7EAA354E152D3B4B00D2F719 /* BJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJBaseViewController.m; path = Classes/ViewControllers/BJBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +102,7 @@
 		7EAA3512152D2E9A00D2F719 /* BattleJuice */ = {
 			isa = PBXGroup;
 			children = (
+				7EAA3547152D33DB00D2F719 /* Resources */,
 				7EAA351B152D2E9A00D2F719 /* BJAppDelegate.h */,
 				7EAA351C152D2E9A00D2F719 /* BJAppDelegate.m */,
 				7EAA351E152D2E9A00D2F719 /* MainStoryboard_iPhone.storyboard */,
@@ -115,6 +127,8 @@
 		7EAA3546152D303100D2F719 /* BJViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7EAA354D152D3B4B00D2F719 /* BJBaseViewController.h */,
+				7EAA354E152D3B4B00D2F719 /* BJBaseViewController.m */,
 				7EAA3537152D2FA500D2F719 /* BJRandomBattleViewController.h */,
 				7EAA3538152D2FA500D2F719 /* BJRandomBattleViewController.m */,
 				7EAA353A152D2FDB00D2F719 /* BJAddJuiceViewController.h */,
@@ -127,6 +141,25 @@
 				7EAA3544152D302A00D2F719 /* BJInviteFriendsViewController.m */,
 			);
 			name = BJViewControllers;
+			sourceTree = "<group>";
+		};
+		7EAA3547152D33DB00D2F719 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA3548152D33E100D2F719 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7EAA3548152D33E100D2F719 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7E23EE33152D3EF8003ADD83 /* BJ_logo.png */,
+				7E23EE34152D3EF8003ADD83 /* BJ_vs.png */,
+				7EAA3549152D343600D2F719 /* BJ_logo@2x.png */,
+				7EAA354A152D343600D2F719 /* BJ_vs@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +216,10 @@
 				7EAA3517152D2E9A00D2F719 /* InfoPlist.strings in Resources */,
 				7EAA3520152D2E9A00D2F719 /* MainStoryboard_iPhone.storyboard in Resources */,
 				7EAA3523152D2E9A00D2F719 /* MainStoryboard_iPad.storyboard in Resources */,
+				7EAA354B152D343600D2F719 /* BJ_logo@2x.png in Resources */,
+				7EAA354C152D343600D2F719 /* BJ_vs@2x.png in Resources */,
+				7E23EE35152D3EF8003ADD83 /* BJ_logo.png in Resources */,
+				7E23EE36152D3EF8003ADD83 /* BJ_vs.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +237,7 @@
 				7EAA353F152D2FF300D2F719 /* BJYourJuiceViewController.m in Sources */,
 				7EAA3542152D300500D2F719 /* BJTopChampsViewController.m in Sources */,
 				7EAA3545152D302A00D2F719 /* BJInviteFriendsViewController.m in Sources */,
+				7EAA354F152D3B4B00D2F719 /* BJBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +359,7 @@
 				7EAA3536152D2E9A00D2F719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
