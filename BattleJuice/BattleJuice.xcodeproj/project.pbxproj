@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EAA350D152D2E9A00D2F719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA350C152D2E9A00D2F719 /* UIKit.framework */; };
+		7EAA350F152D2E9A00D2F719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA350E152D2E9A00D2F719 /* Foundation.framework */; };
+		7EAA3511152D2E9A00D2F719 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA3510152D2E9A00D2F719 /* CoreGraphics.framework */; };
+		7EAA3517152D2E9A00D2F719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA3515152D2E9A00D2F719 /* InfoPlist.strings */; };
+		7EAA3519152D2E9A00D2F719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA3518152D2E9A00D2F719 /* main.m */; };
+		7EAA351D152D2E9A00D2F719 /* BJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA351C152D2E9A00D2F719 /* BJAppDelegate.m */; };
+		7EAA3520152D2E9A00D2F719 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA351E152D2E9A00D2F719 /* MainStoryboard_iPhone.storyboard */; };
+		7EAA3523152D2E9A00D2F719 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA3521152D2E9A00D2F719 /* MainStoryboard_iPad.storyboard */; };
+		7EAA3539152D2FA500D2F719 /* BJRandomBattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA3538152D2FA500D2F719 /* BJRandomBattleViewController.m */; };
+		7EAA353C152D2FDB00D2F719 /* BJAddJuiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA353B152D2FDB00D2F719 /* BJAddJuiceViewController.m */; };
+		7EAA353F152D2FF300D2F719 /* BJYourJuiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA353E152D2FF300D2F719 /* BJYourJuiceViewController.m */; };
+		7EAA3542152D300500D2F719 /* BJTopChampsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA3541152D300500D2F719 /* BJTopChampsViewController.m */; };
+		7EAA3545152D302A00D2F719 /* BJInviteFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA3544152D302A00D2F719 /* BJInviteFriendsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EAA3508152D2E9A00D2F719 /* BattleJuice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleJuice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAA350C152D2E9A00D2F719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7EAA350E152D2E9A00D2F719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EAA3510152D2E9A00D2F719 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7EAA3514152D2E9A00D2F719 /* BattleJuice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattleJuice-Info.plist"; sourceTree = "<group>"; };
+		7EAA3516152D2E9A00D2F719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EAA3518152D2E9A00D2F719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EAA351A152D2E9A00D2F719 /* BattleJuice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BattleJuice-Prefix.pch"; sourceTree = "<group>"; };
+		7EAA351B152D2E9A00D2F719 /* BJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJAppDelegate.h; sourceTree = "<group>"; };
+		7EAA351C152D2E9A00D2F719 /* BJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJAppDelegate.m; sourceTree = "<group>"; };
+		7EAA351F152D2E9A00D2F719 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7EAA3522152D2E9A00D2F719 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7EAA3537152D2FA500D2F719 /* BJRandomBattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJRandomBattleViewController.h; path = Classes/ViewControllers/BJRandomBattleViewController.h; sourceTree = "<group>"; };
+		7EAA3538152D2FA500D2F719 /* BJRandomBattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJRandomBattleViewController.m; path = Classes/ViewControllers/BJRandomBattleViewController.m; sourceTree = "<group>"; };
+		7EAA353A152D2FDB00D2F719 /* BJAddJuiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJAddJuiceViewController.h; path = Classes/ViewControllers/BJAddJuiceViewController.h; sourceTree = "<group>"; };
+		7EAA353B152D2FDB00D2F719 /* BJAddJuiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJAddJuiceViewController.m; path = Classes/ViewControllers/BJAddJuiceViewController.m; sourceTree = "<group>"; };
+		7EAA353D152D2FF300D2F719 /* BJYourJuiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJYourJuiceViewController.h; path = Classes/ViewControllers/BJYourJuiceViewController.h; sourceTree = "<group>"; };
+		7EAA353E152D2FF300D2F719 /* BJYourJuiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJYourJuiceViewController.m; path = Classes/ViewControllers/BJYourJuiceViewController.m; sourceTree = "<group>"; };
+		7EAA3540152D300500D2F719 /* BJTopChampsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJTopChampsViewController.h; path = Classes/ViewControllers/BJTopChampsViewController.h; sourceTree = "<group>"; };
+		7EAA3541152D300500D2F719 /* BJTopChampsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJTopChampsViewController.m; path = Classes/ViewControllers/BJTopChampsViewController.m; sourceTree = "<group>"; };
+		7EAA3543152D302A00D2F719 /* BJInviteFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BJInviteFriendsViewController.h; path = Classes/ViewControllers/BJInviteFriendsViewController.h; sourceTree = "<group>"; };
+		7EAA3544152D302A00D2F719 /* BJInviteFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BJInviteFriendsViewController.m; path = Classes/ViewControllers/BJInviteFriendsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EAA3505152D2E9A00D2F719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAA350D152D2E9A00D2F719 /* UIKit.framework in Frameworks */,
+				7EAA350F152D2E9A00D2F719 /* Foundation.framework in Frameworks */,
+				7EAA3511152D2E9A00D2F719 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EAA34FD152D2E9A00D2F719 = {
+			isa = PBXGroup;
+			children = (
+				7EAA3512152D2E9A00D2F719 /* BattleJuice */,
+				7EAA350B152D2E9A00D2F719 /* Frameworks */,
+				7EAA3509152D2E9A00D2F719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EAA3509152D2E9A00D2F719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA3508152D2E9A00D2F719 /* BattleJuice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EAA350B152D2E9A00D2F719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA350C152D2E9A00D2F719 /* UIKit.framework */,
+				7EAA350E152D2E9A00D2F719 /* Foundation.framework */,
+				7EAA3510152D2E9A00D2F719 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EAA3512152D2E9A00D2F719 /* BattleJuice */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA351B152D2E9A00D2F719 /* BJAppDelegate.h */,
+				7EAA351C152D2E9A00D2F719 /* BJAppDelegate.m */,
+				7EAA351E152D2E9A00D2F719 /* MainStoryboard_iPhone.storyboard */,
+				7EAA3521152D2E9A00D2F719 /* MainStoryboard_iPad.storyboard */,
+				7EAA3546152D303100D2F719 /* BJViewControllers */,
+				7EAA3513152D2E9A00D2F719 /* Supporting Files */,
+			);
+			path = BattleJuice;
+			sourceTree = "<group>";
+		};
+		7EAA3513152D2E9A00D2F719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA3514152D2E9A00D2F719 /* BattleJuice-Info.plist */,
+				7EAA3515152D2E9A00D2F719 /* InfoPlist.strings */,
+				7EAA3518152D2E9A00D2F719 /* main.m */,
+				7EAA351A152D2E9A00D2F719 /* BattleJuice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EAA3546152D303100D2F719 /* BJViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA3537152D2FA500D2F719 /* BJRandomBattleViewController.h */,
+				7EAA3538152D2FA500D2F719 /* BJRandomBattleViewController.m */,
+				7EAA353A152D2FDB00D2F719 /* BJAddJuiceViewController.h */,
+				7EAA353B152D2FDB00D2F719 /* BJAddJuiceViewController.m */,
+				7EAA353D152D2FF300D2F719 /* BJYourJuiceViewController.h */,
+				7EAA353E152D2FF300D2F719 /* BJYourJuiceViewController.m */,
+				7EAA3540152D300500D2F719 /* BJTopChampsViewController.h */,
+				7EAA3541152D300500D2F719 /* BJTopChampsViewController.m */,
+				7EAA3543152D302A00D2F719 /* BJInviteFriendsViewController.h */,
+				7EAA3544152D302A00D2F719 /* BJInviteFriendsViewController.m */,
+			);
+			name = BJViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EAA3507152D2E9A00D2F719 /* BattleJuice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EAA3534152D2E9A00D2F719 /* Build configuration list for PBXNativeTarget "BattleJuice" */;
+			buildPhases = (
+				7EAA3504152D2E9A00D2F719 /* Sources */,
+				7EAA3505152D2E9A00D2F719 /* Frameworks */,
+				7EAA3506152D2E9A00D2F719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleJuice;
+			productName = BattleJuice;
+			productReference = 7EAA3508152D2E9A00D2F719 /* BattleJuice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EAA34FF152D2E9A00D2F719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BJ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7EAA3502152D2E9A00D2F719 /* Build configuration list for PBXProject "BattleJuice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EAA34FD152D2E9A00D2F719;
+			productRefGroup = 7EAA3509152D2E9A00D2F719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EAA3507152D2E9A00D2F719 /* BattleJuice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EAA3506152D2E9A00D2F719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAA3517152D2E9A00D2F719 /* InfoPlist.strings in Resources */,
+				7EAA3520152D2E9A00D2F719 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7EAA3523152D2E9A00D2F719 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EAA3504152D2E9A00D2F719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAA3519152D2E9A00D2F719 /* main.m in Sources */,
+				7EAA351D152D2E9A00D2F719 /* BJAppDelegate.m in Sources */,
+				7EAA3539152D2FA500D2F719 /* BJRandomBattleViewController.m in Sources */,
+				7EAA353C152D2FDB00D2F719 /* BJAddJuiceViewController.m in Sources */,
+				7EAA353F152D2FF300D2F719 /* BJYourJuiceViewController.m in Sources */,
+				7EAA3542152D300500D2F719 /* BJTopChampsViewController.m in Sources */,
+				7EAA3545152D302A00D2F719 /* BJInviteFriendsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EAA3515152D2E9A00D2F719 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EAA3516152D2E9A00D2F719 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7EAA351E152D2E9A00D2F719 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EAA351F152D2E9A00D2F719 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7EAA3521152D2E9A00D2F719 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EAA3522152D2E9A00D2F719 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EAA3532152D2E9A00D2F719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EAA3533152D2E9A00D2F719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EAA3535152D2E9A00D2F719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattleJuice/BattleJuice-Prefix.pch";
+				INFOPLIST_FILE = "BattleJuice/BattleJuice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7EAA3536152D2E9A00D2F719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattleJuice/BattleJuice-Prefix.pch";
+				INFOPLIST_FILE = "BattleJuice/BattleJuice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EAA3502152D2E9A00D2F719 /* Build configuration list for PBXProject "BattleJuice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAA3532152D2E9A00D2F719 /* Debug */,
+				7EAA3533152D2E9A00D2F719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EAA3534152D2E9A00D2F719 /* Build configuration list for PBXNativeTarget "BattleJuice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAA3535152D2E9A00D2F719 /* Debug */,
+				7EAA3536152D2E9A00D2F719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EAA34FF152D2E9A00D2F719 /* Project object */;
+}
