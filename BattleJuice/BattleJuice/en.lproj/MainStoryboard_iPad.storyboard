@@ -53,7 +53,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="68C-E2-SyP">
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="SpK-HY-NJo">
+                                        <barButtonItem key="rightBarButtonItem" title="Share" id="SpK-HY-NJo">
                                             <connections>
                                                 <action selector="share" destination="3" id="qeE-AL-8gN"/>
                                             </connections>

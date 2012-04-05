@@ -86,7 +86,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="s8p-T3-teL">
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="ZlA-oK-Ofa">
+                                        <barButtonItem key="rightBarButtonItem" title="Share" id="ZlA-oK-Ofa">
                                             <connections>
                                                 <action selector="share" destination="ZgP-4d-VLr" id="ZnT-ch-N3Z"/>
                                             </connections>
