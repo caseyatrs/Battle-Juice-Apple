@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7E23EE35152D3EF8003ADD83 /* BJ_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23EE33152D3EF8003ADD83 /* BJ_logo.png */; };
 		7E23EE36152D3EF8003ADD83 /* BJ_vs.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23EE34152D3EF8003ADD83 /* BJ_vs.png */; };
+		7E23EE39152D4CAF003ADD83 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23EE37152D4CAF003ADD83 /* placeholder@2x.png */; };
+		7E23EE3A152D4CAF003ADD83 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23EE38152D4CAF003ADD83 /* placeholder.png */; };
 		7EAA350D152D2E9A00D2F719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA350C152D2E9A00D2F719 /* UIKit.framework */; };
 		7EAA350F152D2E9A00D2F719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA350E152D2E9A00D2F719 /* Foundation.framework */; };
 		7EAA3511152D2E9A00D2F719 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAA3510152D2E9A00D2F719 /* CoreGraphics.framework */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		7E23EE33152D3EF8003ADD83 /* BJ_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BJ_logo.png; path = Resources/Images/BJ_logo.png; sourceTree = "<group>"; };
 		7E23EE34152D3EF8003ADD83 /* BJ_vs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BJ_vs.png; path = Resources/Images/BJ_vs.png; sourceTree = "<group>"; };
+		7E23EE37152D4CAF003ADD83 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "placeholder@2x.png"; path = "Resources/Images/placeholder@2x.png"; sourceTree = "<group>"; };
+		7E23EE38152D4CAF003ADD83 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = Resources/Images/placeholder.png; sourceTree = "<group>"; };
 		7EAA3508152D2E9A00D2F719 /* BattleJuice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleJuice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAA350C152D2E9A00D2F719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7EAA350E152D2E9A00D2F719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -154,6 +158,8 @@
 		7EAA3548152D33E100D2F719 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7E23EE38152D4CAF003ADD83 /* placeholder.png */,
+				7E23EE37152D4CAF003ADD83 /* placeholder@2x.png */,
 				7E23EE33152D3EF8003ADD83 /* BJ_logo.png */,
 				7E23EE34152D3EF8003ADD83 /* BJ_vs.png */,
 				7EAA3549152D343600D2F719 /* BJ_logo@2x.png */,
@@ -220,6 +226,8 @@
 				7EAA354C152D343600D2F719 /* BJ_vs@2x.png in Resources */,
 				7E23EE35152D3EF8003ADD83 /* BJ_logo.png in Resources */,
 				7E23EE36152D3EF8003ADD83 /* BJ_vs.png in Resources */,
+				7E23EE39152D4CAF003ADD83 /* placeholder@2x.png in Resources */,
+				7E23EE3A152D4CAF003ADD83 /* placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

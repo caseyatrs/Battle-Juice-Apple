@@ -28,6 +28,18 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="BJ_vs.png" id="NWS-d2-7es">
+                                <rect key="frame" x="137" y="188" width="46" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="placeholder.png" id="LuU-OT-7Oi">
+                                <rect key="frame" x="20" y="166" width="91" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="placeholder.png" id="HLf-dh-YjV">
+                                <rect key="frame" x="209" y="166" width="91" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -161,6 +173,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BJ_vs.png" width="46" height="36"/>
+        <image name="placeholder.png" width="40" height="40"/>
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>
